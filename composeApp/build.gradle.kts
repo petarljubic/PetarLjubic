@@ -66,6 +66,7 @@ kotlin {
             implementation(libs.coil.compose)
             implementation(libs.coil.mp)
             implementation(libs.coil.network.ktor)
+            implementation("dev.chrisbanes.material3:material3-window-size-class-multiplatform:0.5.0")
         }
     }
 }
